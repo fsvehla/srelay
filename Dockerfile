@@ -18,5 +18,4 @@ RUN apk del musl $DEPS
 
 EXPOSE 1080
 
-STOPSIGNAL SIGKILL
 ENTRYPOINT ["/usr/local/bin/srelay", "-f"]
